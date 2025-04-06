@@ -1,0 +1,40 @@
+[
+  {
+    "userId": "user1",
+    "leftPanels": [
+      "leftPanel1",
+      "leftPanel2",
+      "leftPanel3"
+    ],
+    "rightPanels": [
+      "rightPanel1",
+      "rightPanel2",
+      "rightPanel3"
+    ]
+  },
+  {
+    "userId": "user2",
+    "leftPanels": [
+      "leftPanel2",
+      "leftPanel3"
+    ],
+    "rightPanels": [
+      "rightPanel3"
+    ]
+  },
+  {
+    "userId": "user3",
+    "leftPanels": [
+      "leftPanel3",
+      "leftPanel1"
+    ],
+    "rightPanels": [
+      "rightPanel3",
+      "rightPanel2",
+      "rightPanel1"
+    ]
+  }
+]
+
+
+

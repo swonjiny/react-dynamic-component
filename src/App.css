@@ -1,0 +1,51 @@
+.floating-layout-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow-x: auto; /* 필요에 따라 가로 스크롤 활성화 */
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.left-panels-container {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row; /* 패널들을 세로로 쌓음 */
+  padding: 20px 0; /* 전체 컨테이너 기준 패딩 */
+}
+
+.right-panels-container {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row; /* 패널들을 세로로 쌓음 */
+  padding: 20px 0; /* 전체 컨테이너 기준 패딩 */
+}
+
+.left-panel,
+.right-panel {
+  width: 200px; /* 기본 너비 */
+  background-color: rgba(240, 240, 240, 0.8);
+  padding: 15px;
+  margin-bottom: 10px; /* 패널 사이 간격 */
+  box-sizing: border-box; /* padding, border가 width에 포함되도록 */
+}
+
+/* 마지막 패널의 margin-bottom 제거 (선택 사항) */
+.left-panels-container > .left-panel:last-child,
+.right-panels-container > .right-panel:last-child {
+  margin-bottom: 0;
+}
