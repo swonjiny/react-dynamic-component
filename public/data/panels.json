@@ -1,6 +1,7 @@
 [
   {
     "userId": "user1",
+    "path": "first",
     "leftPanels": [
       "leftPanel1",
       "leftPanel2",
@@ -14,6 +15,7 @@
   },
   {
     "userId": "user2",
+    "path": "second",
     "leftPanels": [
       "leftPanel2",
       "leftPanel3"
@@ -24,6 +26,7 @@
   },
   {
     "userId": "user3",
+    "path": "third",
     "leftPanels": [
       "leftPanel3",
       "leftPanel1"
